@@ -37,8 +37,12 @@ collected data in different time spans during the year in FRP1 and FRP2.
 ###Demo###
 Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
 Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running the [`Demo.m`](/Demo.m).
-* If `training=1` code performs the signal decomposition only without prediction. 
-* For prediction: `training=0`
+
+
+* If parameter `training=1`, code performs the signal decomposition only without prediction. 
+
+* For prediction: `training=0`.
+
 * See the guide in the begining of the demo code to see how you can apply different methods such as Non-negative Sparse coding and Elastic Net. 
 
 
