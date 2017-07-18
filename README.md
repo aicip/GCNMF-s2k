@@ -2,7 +2,7 @@
 ![LD](/LD.png)
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework.
 
-More info: 
+Paper: 
 [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
 
 
@@ -31,3 +31,11 @@ More info:
 
 * Repo owner or admin
 * Other community or team contact
+<p>Here is an example of AppleScript:</p>
+#
+def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text)        
+~~~~
+This is a code block, fenced-style
+~~~~
+
+~~text that has been struckthrough~~
