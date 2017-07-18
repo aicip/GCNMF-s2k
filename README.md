@@ -1,5 +1,6 @@
 # Non-Intrusive Load Monitoring #
 ![LD](/LD.png)
+
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework.
 
 Paper: 
@@ -20,7 +21,7 @@ We design two different experiments for
 evaluating our proposed algorithm. The first experiment is
 disaggregation of the whole home energy to the energy consumption
 of all the appliances at a residential home. 
-For this part we use the * [AMPds] (http://ampds.org/): A Public Dataset for
+For this part we use the [AMPds](http://ampds.org/): A Public Dataset for
 Load Disaggregation and Eco-Feedback Research for
 the first experiment. This dataset has most required features
 for performing an accurate disaggregation task.
