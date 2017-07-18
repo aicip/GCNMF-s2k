@@ -7,12 +7,6 @@ Paper:
 [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
 
 
-### What is this repository for? ###
-
-* Quick summary [TEST](/test.txt)
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
 ###prerequisite:###
 MATLAB R2015a
 
@@ -29,6 +23,7 @@ for performing an accurate disaggregation task.
 The second experiment is designing a hierarchical scheme for
 disaggregating the whole building energy signal to the HVAC
 components signals in an industrial building.
+
 ![Diag](blockdiag1.PNG)
 
 For this experiment, the data was collected on the
@@ -39,15 +34,21 @@ building equipment, and building instrumentation, control,
 and fault detection. Please see [(The ORNL dataset details.)](/data/ORNL_data_info.zip) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 
+###Demo###
+Run the `[Demo.m](/Demo.m)` to see the result of disaggregation algorithm on the AMPds dataset. 
+Please put the `[AMP_DATA.mat](/AMP_DATA.mat)` in the same folder when running the `[Demo.m](/Demo.m)`.
+* If `training=1` code performs the signal decomposition only without prediction. 
+* For prediction: `training=0`
+* See the guide in the begining of the demo code to see how you can apply different methods such as Non-negative Sparse coding and Elastic Net. 
+
+
+
+###Results###
 
 ###Useful links###
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-
-
+###Citation:###
+###Contact###
 ```
 #
 def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 
