@@ -48,6 +48,18 @@ Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running t
 
 
 ###Results###
+You should see the following results (and a lot more!) after running the demo in the training mode. 
+
+![f1](alldev.png)
+
+
+![f2](pie2.png)
+
+
+![f3](AGG_2.png)
+
+
+
 
 ###Useful links###
 

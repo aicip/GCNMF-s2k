@@ -77,7 +77,7 @@ X=x_agg;
 %%
 %TRAINING 
 % In training just use k from 1 to K. ( because of structure of A)
-training=1;
+training=0;
 testing=1-training;
 plot_agg=0;
 if training==1
