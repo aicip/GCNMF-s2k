@@ -35,7 +35,7 @@ and fault detection. Please see [(The ORNL dataset details.)](/data/ORNL_data_in
 collected data in different time spans during the year in FRP1 and FRP2. 
 
 ###Demo###
-Run the `[Demo.m](/Demo.m)` to see the result of disaggregation algorithm on the AMPds dataset. 
+Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
 Please put the `[AMP_DATA.mat](/AMP_DATA.mat)` in the same folder when running the `[Demo.m](/Demo.m)`.
 * If `training=1` code performs the signal decomposition only without prediction. 
 * For prediction: `training=0`
