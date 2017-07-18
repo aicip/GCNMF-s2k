@@ -8,7 +8,7 @@ More info:
 
 ### What is this repository for? ###
 
-* Quick summary
+* Quick summary ![TEST](/test.txt)
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
