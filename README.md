@@ -29,6 +29,8 @@ for performing an accurate disaggregation task.
 The second experiment is designing a hierarchical scheme for
 disaggregating the whole building energy signal to the HVAC
 components signals in an industrial building.
+![Diag](blockdiag1.PNG)
+
 For this experiment, the data was collected on the
 Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
