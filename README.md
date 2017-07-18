@@ -12,20 +12,32 @@ Paper:
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+###prerequisite:###
+MATLAB R2015a
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+###Datasets###
+We design two different experiments for
+evaluating our proposed algorithm. The first experiment is
+disaggregation of the whole home energy to the energy consumption
+of all the appliances at a residential home. 
+For this part we use the * [AMPds] (http://ampds.org/): A Public Dataset for
+Load Disaggregation and Eco-Feedback Research for
+the first experiment. This dataset has most required features
+for performing an accurate disaggregation task.
 
-### Contribution guidelines ###
+The second experiment is designing a hierarchical scheme for
+disaggregating the whole building energy signal to the HVAC
+components signals in an industrial building.
+For this experiment, the data was collected on the
+Oak Ridge National Laboratory (ORNL) Flexible Research
+Platform (FRP1). FRP1 was constructed to enable
+research into building envelope materials, construction methods,
+building equipment, and building instrumentation, control,
+and fault detection. Please see [(The ORNL dataset details.)](/data/ORNL_data_info.zip) for details of all the 
+collected data in different time spans during the year in FRP1 and FRP2. 
 
-* Writing tests
-* Code review
-* Other guidelines
+
+###Useful links###
 
 ### Who do I talk to? ###
 
