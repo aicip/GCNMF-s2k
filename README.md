@@ -31,9 +31,15 @@ Paper:
 
 * Repo owner or admin
 * Other community or team contact
+
 <p>Here is an example of AppleScript:</p>
+
+```
 #
-def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text)        
+def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) ```
+
+```
+
 ~~~~
 This is a code block, fenced-style
 ~~~~
