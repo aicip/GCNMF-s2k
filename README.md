@@ -86,8 +86,8 @@ ___
 * Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.
 
 IEEE Transactions on Power Systems
-```
-@article{rahimpour2017non,
+
+```@article{rahimpour2017non,
 title={Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint},
 author={Rahimpour, Alireza and Qi, Hairong and Fugate, David and Kuruganti, Teja},
 journal={IEEE Transactions on Power Systems},
@@ -97,21 +97,9 @@ publisher={IEEE}
 
 ``
 
-Non-intrusive load monitoring of HVAC components using signal unmixing
-
-```
-@inproceedings{rahimpour2015non,
-title={Non-intrusive load monitoring of HVAC components using signal unmixing},
-author={Rahimpour, Alireza and Qi, Hairong and Fugate, David and Kuruganti, Teja},
-booktitle={IEEE Global Conference on Signal and Information Processing (GlobalSIP), 2015},
-pages={1012--1016},
-year={2015},
-organization={IEEE}
-}
-
-```
 
 ###Contact###
+
 ```
 #
 def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 
