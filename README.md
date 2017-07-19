@@ -55,15 +55,13 @@ You should see the following results (and a lot more!) after running the demo.
 
 ![f1](alldev2.png)
 
-
-
-
+___
 * The pie plots show that S2K-NMF achieves the best result for estimating the energy usage contribution of each device:
 
 ![f2](pie2.png)
 
 
-
+___
 
 
 * Ground truth (top figure) and estimated aggregated signal (middle
@@ -72,6 +70,8 @@ home in one random testing day (1440 minutes) using the S2K-NMF
 algorithm.
 ![f3](AGG_2.png)
 
+
+___
 
 
 
