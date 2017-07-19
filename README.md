@@ -87,24 +87,20 @@ ___
 
 IEEE Transactions on Power Systems
 
-```@article{rahimpour2017non,
+~~~~
+@article{rahimpour2017non,
 title={Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint},
 author={Rahimpour, Alireza and Qi, Hairong and Fugate, David and Kuruganti, Teja},
 journal={IEEE Transactions on Power Systems},
 year={2017},
 publisher={IEEE}
-}
-
-``
+} 
+~~~~
 
 
 ###Contact###
 
-```
-#
-def wiki_rocks(text): formatter = lambda t: "funky"+t return formatter(text) 
 
-```
 
 ~~~~
 This is a code block, fenced-style
