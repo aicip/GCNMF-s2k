@@ -112,4 +112,4 @@ organization={IEEE}
 
 ###Contact###
 
-Please feel free to contact [Alireza Rahimpour] (arahimpo@utk.edu) for more information about this project. 
+Please feel free to contact [Alireza Rahimpour] (http://web.eecs.utk.edu/~arahimpo/) for more information about this project. EMail: arahimpo[at]utk[dot]edu 
