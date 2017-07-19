@@ -31,9 +31,9 @@ Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
 research into building envelope materials, construction methods,
 building equipment, and building instrumentation, control,
-and fault detection. Please see ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
+and fault detection. Please see the data folder and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
-For getting the ORNL data please contact Alireza (arahimpo@utk.edu). 
+For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
 
 ###Demo###
 Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
