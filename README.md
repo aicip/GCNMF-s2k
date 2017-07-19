@@ -31,8 +31,9 @@ Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
 research into building envelope materials, construction methods,
 building equipment, and building instrumentation, control,
-and fault detection. Please see [(The ORNL dataset details.)](/data/ORNL_data_info.zip) for details of all the 
+and fault detection. Please see ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
+For getting the ORNL data please contact Alireza (arahimpo@utk.edu). 
 
 ###Demo###
 Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
@@ -43,25 +44,29 @@ Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running t
 
 * For prediction: `training=0`.
 
-* See the guide in the begining of the demo code to see how you can apply different methods such as Non-negative Sparse coding and Elastic Net. 
+* Please see the guide in the beginning of the demo code to see how you can apply different methods such as Non-negative Sparse coding and Elastic Net. 
 
 
 
 ###Results###
-You should see the following results (and a lot more!) after running the demo in the training mode. 
+You should see the following results (and a lot more!) after running the demo. 
 
-Ground truth and estimated appliances’ signals using the S2K-NMF method for one random testing day (1440 minutes).
+* Ground truth and estimated appliances’ signals using the S2K-NMF method for one random testing day (1440 minutes).
 
 ![f1](alldev2.png)
 
 
-The pie plots show that S2K-NMF achieves the best result for estimating the energy usage contribution of each device:
+
+
+* The pie plots show that S2K-NMF achieves the best result for estimating the energy usage contribution of each device:
 
 ![f2](pie2.png)
 
 
 
-Ground truth (top figure) and estimated aggregated signal (middle
+
+
+* Ground truth (top figure) and estimated aggregated signal (middle
 figure) and absolute difference between them (bottom figure) for the residential
 home in one random testing day (1440 minutes) using the S2K-NMF
 algorithm.
