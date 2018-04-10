@@ -4,14 +4,15 @@
 
 This repository includes our collected dataset for HVAC component energy disaggregation as well as 
 source code and demo for our paper:[Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
-To the best of our knowledge this is the first collected dataset for studying NILM for Heating, ventilation, and air conditioning (HVAC) systems. 
+To the best of our knowledge this is the first collected dataset for studying NILM for Heating, Ventilation, and Air Conditioning (HVAC) systems. 
 
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses
 the issue of extracting device-level energy consumption information by monitoring
 the aggregated signal at one single measurement point without installing meters on each
 individual device. Energy disaggregation can be formulated as a source separation problem where
 the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization
-framework.
+framework. In this work we use machine learning in order to predict the pattern of energy consumption
+of each device during a day. This project is one part of our collaboration with [DOE](https://www.osti.gov/biblio/1265590-non-intrusive-load-monitoring-hvac-components-using-signal-unmixing).
 
 
 
@@ -28,13 +29,11 @@ Load Disaggregation and Eco-Feedback Research for
 the first experiment. This dataset has most required features
 for performing an accurate disaggregation task.
 
-The second experiment is designing a hierarchical scheme for
+The second experiment is based on designing a hierarchical scheme for
 disaggregating the whole building energy signal to the HVAC
-components signals (i.e., ) in an industrial building.
+components signals (i.e., two compressors, two condenser fan and one indoor
+blower) in an industrial building.
 
-The goal of the this experiment is to estimate the energy usage profile of the
-internal components of the HVAC by disaggregating the energy
-consumption of the whole building.
 ![Diag](blockdiag1.PNG)
 
 ##HVAC_ORNL_UTK dataset for NILM
@@ -63,8 +62,8 @@ blower. The above Figure illustrates this hierarchical architecture.
 
 Please see the [data folder](/data/?at=master) and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
-For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
-Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you use this dataset. 
+* For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
+Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you find this paper and dataset useful. 
 
 ###Demo###
 Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
