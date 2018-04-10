@@ -27,7 +27,7 @@ components signals in an industrial building.
 
 ![Diag](blockdiag1.PNG)
 
-## HVAC_ORNL_UTK dataset for NILM ## 
+##HVAC_ORNL_UTK dataset for NILM## 
 For this experiment, we collected the data at Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
 research into building envelope materials, construction methods,
@@ -53,7 +53,7 @@ Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running t
 ###Results###
 You should see the following results (and a lot more!) after running the demo. 
 
-* Ground truth and estimated appliances’ signals using the S2K-NMF method for one random testing day (1440 minutes).
+* Ground truth and estimated appliancesï¿½ signals using the S2K-NMF method for one random testing day (1440 minutes).
 
 ![f1](alldev2.png)
 
