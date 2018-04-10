@@ -1,4 +1,5 @@
 # Non-Intrusive Load Monitoring #
+## HVAC_ORNL_UTK dataset ##
 ![LD](/LD.png)
 
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework.
@@ -26,14 +27,15 @@ components signals in an industrial building.
 
 ![Diag](blockdiag1.PNG)
 
-For this experiment, the data was collected on the
-Oak Ridge National Laboratory (ORNL) Flexible Research
+## HVAC_ORNL_UTK dataset for NILM ## 
+For this experiment, we collected the data at Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
 research into building envelope materials, construction methods,
 building equipment, and building instrumentation, control,
 and fault detection. Please see the data folder and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
+Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you use this dataset. 
 
 ###Demo###
 Run the [`Demo.m`](/Demo.m) to see the result of disaggregation algorithm on the AMPds dataset. 
@@ -51,7 +53,7 @@ Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running t
 ###Results###
 You should see the following results (and a lot more!) after running the demo. 
 
-* Ground truth and estimated appliancesâ€™ signals using the S2K-NMF method for one random testing day (1440 minutes).
+* Ground truth and estimated appliances’ signals using the S2K-NMF method for one random testing day (1440 minutes).
 
 ![f1](alldev2.png)
 
