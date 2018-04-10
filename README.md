@@ -3,7 +3,7 @@
 ![LD](/LD.png)
 
 This repository includes our collected dataset for HVAC component energy disaggregation as well as 
-source code and demo for our paper:[Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
+source code and demo for our paper in IEEE Transactions on Power Systems: [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint](http://ieeexplore.ieee.org/abstract/document/7835299/)
 To the best of our knowledge this is the first collected dataset for studying NILM for Heating, Ventilation, and Air Conditioning (HVAC) systems. 
 
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses
@@ -32,7 +32,7 @@ for performing an accurate disaggregation task.
 The second experiment is based on designing a hierarchical scheme for
 disaggregating the whole building energy signal to the HVAC
 components signals (i.e., two compressors, two condenser fan and one indoor
-blower) in an industrial building.
+blower) in an industrial building (as shown below).
 
 ![Diag](blockdiag1.PNG)
 
@@ -62,7 +62,6 @@ blower. The above Figure illustrates this hierarchical architecture.
 
 Please see the [data folder](/data/?at=master) and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
-* For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
 Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you find this paper and dataset useful. 
 
 ###Demo###
@@ -81,7 +80,7 @@ Please put the [`AMP_DATA.mat`](/AMP_DATA.mat) in the same folder when running t
 ###Results###
 You should see the following results (and a lot more!) after running the demo. 
 
-* Ground truth and estimated appliances� signals using the S2K-NMF method for one random testing day (1440 minutes).
+* Ground truth and estimated appliances signals using the S2K-NMF method for one random testing day (1440 minutes).
 
 ![f1](alldev2.png)
 
