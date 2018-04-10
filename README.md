@@ -1,9 +1,9 @@
 # Non-Intrusive Load Monitoring #
-## HVAC_ORNL_UTK dataset ##
+## HVAC_ORNL_UTK dataset: A dataset for studying HVAC-NILM ##
 ![LD](/LD.png)
 
 This repository includes our collected dataset for HVAC component energy disaggregation as well as 
-source code and demo for our paper in IEEE Transactions on Power Systems: [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint](http://ieeexplore.ieee.org/abstract/document/7835299/)
+the source code and demo for our paper in IEEE Transactions on Power Systems: [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
 To the best of our knowledge this is the first collected dataset for studying NILM for Heating, Ventilation, and Air Conditioning (HVAC) systems. 
 
 Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses
@@ -11,7 +11,7 @@ the issue of extracting device-level energy consumption information by monitorin
 the aggregated signal at one single measurement point without installing meters on each
 individual device. Energy disaggregation can be formulated as a source separation problem where
 the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization
-framework. In this work we use machine learning in order to predict the pattern of energy consumption
+framework. In this work, we use machine learning in order to predict the pattern of energy consumption
 of each device during a day. This project is one part of our collaboration with [DOE](https://www.osti.gov/biblio/1265590-non-intrusive-load-monitoring-hvac-components-using-signal-unmixing).
 
 
@@ -24,7 +24,7 @@ We design two different experiments for
 evaluating our proposed algorithm. The first experiment is
 disaggregation of the whole home energy to the energy consumption
 of all the appliances at a residential home. 
-For this part we use the [AMPds](http://ampds.org/): A Public Dataset for
+For this part we use the current signal in [AMPds](http://ampds.org/): A Public Dataset for
 Load Disaggregation and Eco-Feedback Research for
 the first experiment. This dataset has most required features
 for performing an accurate disaggregation task.
@@ -60,7 +60,7 @@ estimating the power consumption profile of its components
 including: two compressors, two condenser fan and one indoor
 blower. The above Figure illustrates this hierarchical architecture.
 
-Please see the [data folder](/data/?at=master) and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
+Please see the [data folder](/data/?at=master) and ([the HVAC_ORNL_UTK dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you find this paper and dataset useful. 
 
