@@ -2,10 +2,17 @@
 ## HVAC_ORNL_UTK dataset ##
 ![LD](/LD.png)
 
-Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework.
+This repository includes our collected dataset for HVAC component energy disaggregation as well as 
+source code and demo for our paper:[Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
+To the best of our knowledge this is the first collected dataset for studying NILM for Heating, ventilation, and air conditioning (HVAC) systems. 
 
-Paper: 
-[Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
+Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses
+the issue of extracting device-level energy consumption information by monitoring
+the aggregated signal at one single measurement point without installing meters on each
+individual device. Energy disaggregation can be formulated as a source separation problem where
+the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization
+framework.
+
 
 
 ###prerequisite:###
@@ -23,16 +30,38 @@ for performing an accurate disaggregation task.
 
 The second experiment is designing a hierarchical scheme for
 disaggregating the whole building energy signal to the HVAC
-components signals in an industrial building.
+components signals (i.e., ) in an industrial building.
 
+The goal of the this experiment is to estimate the energy usage profile of the
+internal components of the HVAC by disaggregating the energy
+consumption of the whole building.
 ![Diag](blockdiag1.PNG)
 
 ##HVAC_ORNL_UTK dataset for NILM
+
 For this experiment, we collected the data at Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
 research into building envelope materials, construction methods,
 building equipment, and building instrumentation, control,
-and fault detection. Please see the [data folder](/data/?at=master) and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
+and fault detection.
+
+Our experiment in this part consists of two major steps: 
+
+1-Disaggregation of the power signal of whole building to power
+signals of all the circuits and devices existing in the building.
+
+There are 16 different devices, circuits and plugs in the building:
+HVAC unit, 480/208 Transformer, lighting circuits: 1, 3, 5, 7,
+Plug circuits: 1, 3, 5, 7, cord reel circuit, lighting control box,
+exhaust fan, piping heat trace, exterior lighting (lighting and
+emergency) and building control circuit. 
+
+2-Decomposition of the obtained HVAC power signal from the previous step and
+estimating the power consumption profile of its components
+including: two compressors, two condenser fan and one indoor
+blower. The above Figure illustrates this hierarchical architecture.
+
+Please see the [data folder](/data/?at=master) and ([The ORNL dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 For getting the whole ORNL data please contact [Alireza Rahimpour](mailto:arahimpo@utk.edu). 
 Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you use this dataset. 
