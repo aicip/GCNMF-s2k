@@ -1,5 +1,6 @@
 # Non-Intrusive Load Monitoring #
-## HVAC_ORNL_UTK dataset: A dataset for studying HVAC-NILM ##
+## HVAC_ORNL_UTK(HVORUT) dataset: ##
+### A dataset for studying HVAC-NILM ###
 ![LD](/LD.png)
 
 This repository includes our collected dataset for HVAC component energy disaggregation as well as 
@@ -36,7 +37,7 @@ blower) in an industrial building (as shown below).
 
 ![Diag](blockdiag1.PNG)
 
-##HVAC_ORNL_UTK dataset for NILM
+## HVORUT dataset for NILM
 
 For this experiment, we collected the data at Oak Ridge National Laboratory (ORNL) Flexible Research
 Platform (FRP1). FRP1 was constructed to enable
@@ -60,7 +61,7 @@ estimating the power consumption profile of its components
 including: two compressors, two condenser fan and one indoor
 blower. The above Figure illustrates this hierarchical architecture.
 
-Please see the [data folder](/data/?at=master) and ([the HVAC_ORNL_UTK dataset details.](/data/ORNL_data_info.zip)) for details of all the 
+Please see the [data folder](/data/?at=master) and ([the HVORUT dataset details.](/data/ORNL_data_info.zip)) for details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you find this paper and dataset useful. 
 
