@@ -1,6 +1,6 @@
 # Non-Intrusive Load Monitoring #
 ## HVAC_ORNL_UTK(HVORUT) dataset: ##
-### A dataset for studying HVAC-NILM ###
+### A dataset for studying NILM for HVAC units###
 ![LD](/LD.png)
 
 This repository includes our collected dataset for HVAC component energy disaggregation as well as 
@@ -40,7 +40,7 @@ blower) in an industrial building (as shown below).
 ## HVORUT dataset for NILM
 
 For this experiment, we collected the data at Oak Ridge National Laboratory (ORNL) Flexible Research
-Platform (FRP1). FRP1 was constructed to enable
+Platform (FRP). FRP was constructed to enable
 research into building envelope materials, construction methods,
 building equipment, and building instrumentation, control,
 and fault detection.
@@ -50,7 +50,7 @@ Our experiment in this part consists of two major steps:
 1-Disaggregation of the power signal of whole building to power
 signals of all the circuits and devices existing in the building.
 
-There are 16 different devices, circuits and plugs in the building:
+There are 16 different devices (in FRP1), circuits and plugs in the building:
 HVAC unit, 480/208 Transformer, lighting circuits: 1, 3, 5, 7,
 Plug circuits: 1, 3, 5, 7, cord reel circuit, lighting control box,
 exhaust fan, piping heat trace, exterior lighting (lighting and
@@ -60,8 +60,35 @@ emergency) and building control circuit.
 estimating the power consumption profile of its components
 including: two compressors, two condenser fan and one indoor
 blower. The above Figure illustrates this hierarchical architecture.
+We collected the data in two different buildings (i.e., FRP1 and FRP2). The following is a brief 
+explanation about each.  
 
-Please see the [data folder](/data/?at=master) and ([the HVORUT dataset details.](/data/ORNL_data_info.zip)) for details of all the 
+###FRP1 details###
+
+In this part of the dataset the Bldg_Power(1) is the total power consumption of the building including
+all the existing devices and plugs: 
+Bldg_Power(2),	Bldg_Power(3),	Bldg_Power(4),	Bldg_Power(5),
+Bldg_Power(6),	Bldg_Power(7),	Bldg_Power(8),	Bldg_Power(9),	Bldg_Power(10),	Bldg_Power(11),
+Bldg_Power(12),	Bldg_Power(13),	Bldg_Power(14),	Bldg_Power(15),	Bldg_Power(16) and HVAC_Power(1).
+
+The HVAC_Power(1) is the aggregated power signal for the HVAC unit.
+HVAC_Power(2), HVAC_Power(3), HVAC_Power(4), HVAC_Power(5), HVAC_Power(6) and HVAC_Power(7) are the 
+power signal of all the HVAC components (compressor, etc.). Sampling rate for this dataset is 2 samples
+per minute. 
+
+###FRP2 details###
+
+In this data, W_BldgTot	is the total power signal (Watt) of the building including the power signals of 
+W_Transf, W_Lights_dwn, W_EmLights_dwn, W_Lights_up, W_EmLights_up, W_WallHeater, W_Plugs102, W_Plugs103, W_Plugs104, W_Plugs, W_Plugs106, W_Plugs202, W_Plugs203, W_Plugs204,	W_Plugs205,	W_Plugs206,	W_PlugsExt,	W_DuctSmokeDet,	W_ExhaustFan, W_Unitary and W_RTU_Total.
+
+The W_RTU_Total is the totall power signal of the RTU (HVAC). 
+
+W_RTU_Comp1, W_RTU_Cond1, W_RTU_Comp2, W_RTU_Cond2 and W_RTU_EvapFan are the power signal of different 
+components of HVAC unit. Sampling rate in this data is 2 samples per minute. 
+	
+
+
+Please see the [data folder](/data/?at=master) and ([the HVORUT dataset details.](/data/ORNL_data_info.zip)) for more details of all the 
 collected data in different time spans during the year in FRP1 and FRP2. 
 Please kindly cite our [paper](http://ieeexplore.ieee.org/abstract/document/7835299/) if you find this paper and dataset useful. 
 
