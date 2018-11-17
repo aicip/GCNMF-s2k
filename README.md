@@ -7,8 +7,7 @@ This repository includes our collected dataset for HVAC component energy disaggr
 the source code and demo for our paper in IEEE Transactions on Power Systems: [Non-Intrusive Energy Disaggregation Using Non-negative Matrix Factorization with Sum-to-k Constraint.](http://ieeexplore.ieee.org/abstract/document/7835299/)
 To the best of our knowledge this is the first collected dataset for studying NILM for Heating, Ventilation, and Air Conditioning (HVAC) systems. 
 
-Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each
-individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework. In this work, we use machine learning in order to predict the pattern of energy consumption of each device during a day. 
+Energy disaggregation or Non-Intrusive Load Monitoring (NILM) addresses the issue of extracting device-level energy consumption information by monitoring the aggregated signal at one single measurement point without installing meters on each individual device. Energy disaggregation can be formulated as a source separation problem where the aggregated signal is expressed as linear combination of basis vectors in a matrix factorization framework. In this work, we use machine learning in order to predict the pattern of energy consumption of each device during a day. 
 This project is one part of our collaboration with [DOE](https://www.osti.gov/biblio/1265590-non-intrusive-load-monitoring-hvac-components-using-signal-unmixing).
 
 
@@ -33,15 +32,13 @@ Platform (FRP). FRP was constructed to enable research into building envelope ma
 
 Our experiment in this part consists of two major steps: 
 
-1-Disaggregation of the power signal of whole building to power
-signals of all the circuits and devices existing in the building.
+1-Disaggregation of the power signal of whole building to power signals of all the circuits and devices existing in the building.
 
 There are 16 different devices (in FRP1), circuits and plugs in the building:
 HVAC unit, 480/208 Transformer, lighting circuits: 1, 3, 5, 7, Plug circuits: 1, 3, 5, 7, cord reel circuit, lighting control box, exhaust fan, piping heat trace, exterior lighting (lighting and
 emergency) and building control circuit. 
 
-2-Decomposition of the obtained HVAC power signal from the previous step and estimating the power consumption profile of its components
-including:
+2-Decomposition of the obtained HVAC power signal from the previous step and estimating the power consumption profile of its components including:
 two compressors, two condenser fan and one indoor blower. The above Figure illustrates this hierarchical architecture. We collected the data in two different buildings (i.e., FRP1 and FRP2). The following is a brief  explanation about each.  
 
 ###FRP1 details###
@@ -102,10 +99,7 @@ ___
 ___
 
 
-* Ground truth (top figure) and estimated aggregated signal (middle
-figure) and absolute difference between them (bottom figure) for the residential
-home in one random testing day (1440 minutes) using the S2K-NMF
-algorithm.
+* Ground truth (top figure) and estimated aggregated signal (middle figure) and absolute difference between them (bottom figure) for the residential home in one random testing day (1440 minutes) using the S2K-NMF algorithm.
 ![f3](AGG_2.png)
 
 
